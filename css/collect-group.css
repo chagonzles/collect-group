@@ -92,7 +92,7 @@ section.bg-secondary {
 }
 
 #section-1 #ebay-parcel-img {
-    height: 300px;
+    max-height: 300px;
 }
 
 #section-1-social-icons {
@@ -217,6 +217,15 @@ footer {
         right: 50px;
     }
 
+    #section-1 #heading-col {
+        justify-content: center;
+    }
+
+    #section-1 h1 {
+        max-width: 400px;
+        font-size: 3.5rem;
+    }
+
     #section-1-social-icons {
         display: none;
     }
@@ -245,7 +254,7 @@ footer {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-
+    
 }
 
 /* Small Devices, Tablets */
@@ -297,6 +306,15 @@ footer {
     #nav-logo {
         margin-left: 3rem;
         margin-right: 3rem;
+    }
+
+    #section-1 #heading-col {
+        justify-content: flex-end;
+    }
+
+    #section-1 h1 {
+        max-width: 450px;
+        font-size: 3.5rem;
     }
 
     .col-form-label {
