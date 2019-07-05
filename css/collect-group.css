@@ -1,0 +1,331 @@
+/* FONTS */
+@font-face {
+    font-family: "ProximaSoft Regular";
+    src: url("../fonts/ProximaSoft Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "ProximaSoft Medium";
+    src: url("../fonts/ProximaSoft Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "ProximaSoft Semibold";
+    src: url("../fonts/ProximaSoft Semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "ProximaSoft Bold";
+    src: url("../fonts/ProximaSoft Bold.otf") format("opentype");
+}
+
+
+* {
+    font-family: 'ProximaSoft Regular';
+    color: #fff;
+}
+
+body {
+    background: #293e6b;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-block {
+    display: inline-block
+}
+
+.text-primary {
+    color: #fa4d09 !important;
+}
+
+.btn {
+    border: 0;
+}
+
+.btn-primary {
+    background: #fa4d09;
+}
+
+.btn-rounded {
+    border-radius: 100px;
+}
+
+
+section.bg-primary {
+    background: #fa4d09 !important;
+}
+
+section.bg-secondary {
+    background: #0283e2 !important;
+}
+
+.navbar {
+    z-index: 99999;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+#section-1 {
+    height: 600px; 
+}
+
+#section-1 #ebay-parcel-col {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#section-1 #ebay-parcel-img {
+    height: 300px;
+}
+
+#section-1-social-icons {
+    position: absolute;
+    left: 80px;
+    bottom: 30px;
+}
+
+#section-1-social-icons img {
+    height: 18px;
+    width: auto;
+    display: block;
+}
+
+#live-chat-btn {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 30px;
+}
+
+#section-7 h1 {
+    font-size: 5rem;
+    color: #2b406d;
+}
+
+#section-8 {
+    background: #263b69;
+}
+
+input {
+    background: #263b69 !important;
+    color: #fff !important;
+    border: 2px solid #4c5d82 !important;
+    border-radius: 0 !important;
+}
+
+textarea {
+    background: #263b69;
+    width: 100%;
+    color: #fff;
+    border: 2px solid #4c5d82;
+    padding: 1rem;
+}
+
+textarea::placeholder {
+    color: #fff;
+}
+
+#leave-message-col {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contact-submit-btn {
+    width: 150px;
+}
+
+footer {
+    background: #0f1d3a;
+}
+
+#footer-logo {
+    height: 100px;
+}
+
+#copyright-text {
+    color: #5a74ad;
+}
+
+#marker-img {
+    position: absolute; 
+    right: -15px
+}
+
+#footer-links li > a {
+    color: #fff;
+}
+
+#footer-links {
+    display:block;
+}
+
+#footer-links li {
+    display:inline-block;
+}
+#footer-links li:before {
+    content:'•'; margin:0 10px;
+}
+
+#footer-social-icons {
+    position: absolute;
+    left: 0;
+    z-index: 9999;
+    background: #fa4d09;
+    height: 180px;
+}
+
+#footer-social-icons img {
+    height: 18px;
+    width: auto;
+    display: block;
+}
+ /*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .navbar {
+        background: #293e6b;
+    }
+
+    #sign-in-nav {
+        border-right: 0;
+        padding-right: 1.5rem;
+    }
+
+    #tracking-nav {
+        margin-left: 0;
+    }
+
+    #live-chat-btn {
+        right: 50px;
+    }
+
+    #section-1-social-icons {
+        display: none;
+    }
+
+    #video-headline {
+        width: 90vw;
+    }
+
+    #marker-img {
+        display: none;
+    }
+
+    #location-text, #contact-us-text {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #footer-social-icons {
+        width: 90px;
+    }
+    
+    .col-form-label {
+        text-align: left;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+   .navbar {
+        background: transparent;
+    }
+
+    #left-nav .nav-item {
+        margin-right: 0.5rem;
+    }
+
+    #sign-in-nav {
+        border-right: 1px solid #ae472c;
+    }
+
+    #tracking-nav {
+        margin-left: 1.5rem;
+    }
+
+    #section-1-social-icons {
+        display: block;
+    }
+
+    #live-chat-btn {
+        right: 100px;
+    }
+
+    #marker-img {
+        display: block;
+    }
+
+    #location-text, #contact-us-text {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #footer-social-icons {
+        width: 150px;
+    }    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #left-nav .nav-item {
+        margin-right: 1.5rem;
+    }
+
+    #nav-logo {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .col-form-label {
+        text-align: right;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    #navbar-list {
+        margin-left: 12rem;
+    }
+}
+
+
+@media only screen and (min-width : 1440px) {
+    #navbar-list {
+        margin-left: 15rem;
+    }
+}
+
+@media only screen and (min-width :1600px) {
+    #navbar-list {
+        margin-left: 20rem;
+    }
+}
+
+@media only screen and (min-width :2560px) {
+    #navbar-list {
+        margin-left: 50rem;
+    }
+}
