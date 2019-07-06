@@ -255,6 +255,10 @@ hr {
     background: transparent;
 }
 
+#section-5 #it-solutions-wrapper {
+    width: 600px;
+}
+
 #section-7 h1 {
     font-size: 5rem;
     color: #2b406d;
