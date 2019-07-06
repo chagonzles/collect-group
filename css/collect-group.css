@@ -19,7 +19,6 @@
     src: url("../fonts/ProximaSoft Bold.otf") format("opentype");
 }
 
-
 * {
     font-family: 'ProximaSoft Regular';
     color: #fff;
@@ -53,8 +52,16 @@ hr {
     display: inline-block
 }
 
+.bg-primary {
+    background: #fb5606 !important;
+}
+
 .text-primary {
     color: #fa4d09 !important;
+}
+
+.text-bold {
+    font-family: 'ProximaSoft Bold';
 }
 
 .btn {
@@ -236,6 +243,16 @@ hr {
 #collect-grp-table .collect-retail-td  {
     background: #28607d;
     min-width: 160px;
+}
+
+#section-4 #about-us-wrapper {
+    width: 600px;
+}
+
+.parallax-window {
+    min-height: 600px;
+    width: auto;
+    background: transparent;
 }
 
 #section-7 h1 {
