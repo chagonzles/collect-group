@@ -91,6 +91,10 @@ section.bg-secondary {
     max-height: 275px;
 }
 
+#section-1 #section-1-btn {
+    width: 150px;
+}
+
 #section-1-social-icons {
     position: absolute;
     left: 80px;
@@ -220,6 +224,8 @@ footer {
 
     #section-1 #ebay-parcel-img {
         margin: 0 auto;
+        position: relative;
+        top: -10px;
     }
 
     #section-1 h1 {
@@ -282,6 +288,7 @@ footer {
 
     #section-1 #ebay-parcel-img {
         margin: 0;
+        top: -30px;
     }
 
     #marker-img {
