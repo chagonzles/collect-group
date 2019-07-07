@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $('.slider').slick({
-        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: '10px',
+        slidesToShow: 5,
         slidesToScroll: 1,
         arrows: true,
         dots: false,
@@ -8,15 +10,19 @@ $(document).ready(function(){
         nextArrow: '<img src="img/right-arrow.png" class="slick-next">',
         prevArrow: '<img src="img/left-arrow.png" class="slick-prev">',
         responsive: [{
-            breakpoint: 768,
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 5
+            }
+        }, {
+            breakpoint: 1199,
             settings: {
                 slidesToShow: 3
             }
         }, {
             breakpoint: 767,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToShow: 1
             }
         }]
     });

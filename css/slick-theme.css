@@ -122,14 +122,31 @@
 .slick-prev.slick-arrow {
   z-index: 9999;
   position: absolute;
+  left: 25px;
   top: 150px;
 }
 .slick-next.slick-arrow {
   position: absolute;
-  right: 0;
+  right: 25px;
   top: 150px;
 }
 
 .slide {
   text-align: center;
+}
+
+.slick-slide > div {
+    transform: scale(.8);
+    transition: transform .3s cubic-bezier(.4,0,.2,1);
+    opacity: 0.5;
+}
+
+.slick-center > div {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.slider__item > img {
+    width: 100%;
+    height: auto;
 }

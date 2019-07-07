@@ -273,13 +273,12 @@ hr {
     margin-bottom: 1rem;
 }
 
-#section-7 h1 {
-    font-size: 5rem;
-    color: #2b406d;
-}
-
-#section-8 {
-    background: #263b69;
+#section-7 .headline-img {
+    max-width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    background: #fff;
 }
 
 input {
