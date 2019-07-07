@@ -123,12 +123,12 @@
   z-index: 9999;
   position: absolute;
   left: 25px;
-  top: 150px;
+  top: 120px;
 }
 .slick-next.slick-arrow {
   position: absolute;
   right: 25px;
-  top: 150px;
+  top: 120px;
 }
 
 .slide {
