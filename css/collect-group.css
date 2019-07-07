@@ -64,6 +64,10 @@ hr {
     font-family: 'ProximaSoft Bold';
 }
 
+.text-md {
+    font-family: 'ProximaSoft Medium';
+}
+
 .btn {
     border: 0;
 }
@@ -257,6 +261,16 @@ hr {
 
 #section-5 #it-solutions-wrapper {
     width: 600px;
+}
+
+#section-6 #looking-for-text {
+    width: 500px;
+}
+
+#section-6 .perks-img {
+    height: 80px;
+    width: auto;
+    margin-bottom: 1rem;
 }
 
 #section-7 h1 {
