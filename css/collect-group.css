@@ -388,6 +388,10 @@ footer {
         top: -10px;
     }
 
+    #section-1 #parcel-line-img {
+        display: none;
+    }
+
     #section-1 h1 {
         max-width: 400px;
         font-size: 3.5rem;
@@ -496,6 +500,13 @@ footer {
     #section-1 h1 {
         max-width: 400px;
         font-size: 3rem;
+    }
+
+    #section-1 #parcel-line-img {
+        display: block;
+        position: relative;
+        top: -12px;
+        left: -25px;
     }
 
     .col-form-label {
