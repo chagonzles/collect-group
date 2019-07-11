@@ -256,7 +256,7 @@ hr {
 }
 
 .parallax-window {
-    min-height: 600px;
+    min-height: 100vh;
     width: auto;
     background: transparent;
 }
@@ -273,6 +273,10 @@ hr {
     height: 80px;
     width: auto;
     margin-bottom: 1rem;
+}
+
+#section-7 {
+    padding-top: 10%;
 }
 
 #section-7 .headline-img {
@@ -511,6 +515,10 @@ footer {
 
     .col-form-label {
         text-align: right;
+    }
+
+    section {
+        min-height: 100vh;
     }
 }
 
