@@ -175,7 +175,7 @@ hr {
     height: 40px;
 }
 
-#collect-grp-table {
+/* #collect-grp-table {
     font-size: 0.9rem;
 }
 
@@ -247,6 +247,83 @@ hr {
 #collect-grp-table .collect-retail-td  {
     background: #28607d;
     min-width: 160px;
+} */
+
+
+.collect-grp-th {
+    background: #fa4d09;
+    border: 1px solid #293e6b;
+    padding: 10px 0;
+}
+
+.collect-direct-th {
+    background: #fff;
+    border: 1px solid #293e6b;
+    color: #182a4f;
+    padding: 10px 0;
+}
+
+.collect-direct-td-1 {
+    background: #7f8ba6;
+    border: 1px solid #293e6b;
+    height: 40px;
+}
+
+.collect-direct-td {
+    background: #4b5d83;
+    border: 1px solid #293e6b;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collect-pro-th {
+    background: #1597f8;
+    border: 1px solid #293e6b;
+    padding: 10px 0;
+}
+
+.collect-pro-td-1 {
+    background: #2162a3;
+    border: 1px solid #293e6b;
+    height: 40px;
+}
+
+.collect-pro-td {
+    background: #264c81;
+    border: 1px solid #293e6b;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collect-retail-th {
+    background: #1ddd6e;
+    border: 1px solid #293e6b;
+    padding: 10px 0;
+}
+
+.collect-retail-td-1 {
+    background: #28607d;
+    border: 1px solid #293e6b;
+    height: 40px;
+}
+
+.collect-retail-td  {
+    background: #28607d;
+    border: 1px solid #293e6b;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mh-120 {
+    min-height: 125px;
+    display: flex;
+    align-items: center;
 }
 
 #section-4 #about-us-wrapper {
@@ -411,6 +488,12 @@ footer {
     .col-form-label {
         text-align: left;
     }
+
+    
+    #collect-table {
+        font-size: 0.8rem;
+    }
+
 }
 
 /* Extra Small Devices, Phones */ 
@@ -461,6 +544,12 @@ footer {
     #footer-social-icons {
         width: 150px;
     }    
+
+    
+    #collect-table {
+        font-size: 0.9rem;
+    }
+
 }
 
 /* Medium Devices, Desktops */
